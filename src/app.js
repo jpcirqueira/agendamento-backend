@@ -2,7 +2,7 @@ const routes = require('./routes');
 
 const express = require('express');
 
-class App (
+class App {
     constructor() {
         this.server = express();
         this.middlewares();
@@ -16,6 +16,6 @@ class App (
     middlewares() {
         this.server.use(express.json());
     }    
-)
+}
 
 module.exports = new App().server;
