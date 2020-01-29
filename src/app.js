@@ -10,7 +10,7 @@ class App {
     }
 
     routes() {
-        this.server.use()
+        this.server.use(routes)
     }
 
     middlewares() {
