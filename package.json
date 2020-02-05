@@ -6,6 +6,8 @@
   "author": "João Soares <jpcirqueira81@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
   }
 }
